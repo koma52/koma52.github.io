@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus"
   disqus:
     shortname            : "konyamarton"
   discourse:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Kónya Márton"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/bio-photo.jpg"
   bio              : "Just writing some stuff"
   location         : "Miskolc, Hungary"
   email            :
@@ -287,6 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      show_date: true
